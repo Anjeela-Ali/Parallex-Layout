@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.firstSec{
+    background-image: url(./images/img\ \(4\).jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.firstSec img{
+    width: 24%;
+    margin-top: 10rem;    
+    margin-left: 25rem;    
+}
+.slideIconDiv{
+    border: 1px solid red;
+    display: flex;
+    
+}
+.slideIconDiv .slideIcons{
+    border: 1px solid blue;
+    width: 20%;
+}
+.slideIconDiv .slideIcons img{
+    border: 1px solid yellow;
+    /* width:20% */
+}
+/* sECOND SEC CSS */
+.secondSec .container{
+    /* border: 1px solid red; */
+    width: 77%;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.secondSec .container h1{
+   line-height: 30px;
+   font-style: italic;
+   padding: 1rem 0;
+   color: rgb(56, 54, 54);
+}
+.secondSec .container p{
+  color: gray;
+  line-height: 20px;
+  padding: 1rem 0;
+}
+/* third sec css */
+.thirdSec {
+    background-image: url(./images/IMG\ \(8\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 220px;
+    overflow: hidden; 
+}
+/* fourth section css */
+.fourthSec{
+    background-color: black;
+    height:200px ;
+}
+.fourthSec div{
+    width: 40%;
+    margin: 0rem auto;
+    padding: 4rem 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+.fourthSec div P{
+   color: white;
+   padding-left: 1rem;
+   /* line-height: 25px; */
+}
+.fourthSec div img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .3rem;
+    
+}
+
+/* fourth section css */
+.fifthSec{
+    background-image:url(./images/nadine-redlich-SEF34uHb1jE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.559);
+    height: 500px;
+}
+.fifthSec .container{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 12rem;
+}
+.fifthSec .container span{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.fifthSec .container p{
+  font-size: 23px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.fifthDiv{
+    background-image: url(./images/IMG\ \(8\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+.seventhDiv{
+    background-image: url(./images/img\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.seventhDiv .container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12rem;
+ }
+ .seventhDiv .container span{
+   font-size: 50px;
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+ }
+ .seventhDiv .container p{
+   font-size: 23px;
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+   padding-bottom: 1rem;
+ }
+ .footerSec {
+     background-color:black;
+ }
+ .footerSec .container{
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     color: whitesmoke;
+     padding: 1rem;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ .footerSec .container button{
+    padding: .7rem 5rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    margin: 1rem;
+ }
+ .footerSec .container p{
+    color: white;
+    font-size:26px;
+    margin: 1rem;
+    letter-spacing: 2px;
+ }
+
+
+
